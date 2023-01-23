@@ -1,4 +1,0 @@
-iptables -t filter -A INPUT -p udp --sport 53 -j DROP
-iptables -t filter -A OUTPUT -p udp --dport 53 -j DROP
-iptables -t filter -A INPUT -p tcp --sport 53 -j DROP
-iptables -t filter -A OUTPUT -p tcp --dport 53 -j DROP
